@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.Counter{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(170, 142, 196);
+    background-image:URL("https://cdn.pixabay.com/photo/2020/03/27/17/03/shopping-4974313_1280.jpg" );
+    background-size: cover;
+}
+#counterh1{
+    margin: 50px;
+    color: rgb(223, 204, 40);
+    justify-content:center;
+    text-shadow: #18ee35;
+
+
+}
+#count{
+    width: 90%;
+    font-size: 90px;
+    display: flex;
+    justify-content:center;
+}
+   
+#increment{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border-radius: 30%;
+    font-size: 40px;
+    background-color: #7e73f8;
+    border: 2px solid #df99b0;
+    color: rgb(250, 250, 250);
+}
+#decrement{
+    height: 50px;
+    width: 120px;
+    margin: 0px;
+    padding: 0 40px;
+    border-radius: 30%;
+    font-size: 40px;
+    background-color: #7e73f8;
+    border: 2px solid #df99b0;
+    display: flex;
+    color: white;
+justify-content: center;
+align-items: center;
+
+}
+#reset{
+    font-size: 40px;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #18ee35;
+    border-color:  red;
+    margin: 40px;
+    justify-content:center;
+    align-items: center;
+}
+.content{
+    position:absolute;
+    right:20%;
+}
+
+
+
